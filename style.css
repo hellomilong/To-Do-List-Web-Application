@@ -1,0 +1,17 @@
+#todo-app {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+#task-list li {
+    padding: 10px;
+    background: #e2e2e2;
+    margin-top: 5px;
+    border-radius: 4px;
+}
