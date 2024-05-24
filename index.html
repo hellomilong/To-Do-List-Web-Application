@@ -1,15 +1,35 @@
-<!DOCType html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Simple To-Do App</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="todo-app">
-        <input type="text" id="new-task" placeholder="Add a new task...">
-        <button id="add-task-btn">Add Task</button>
-        <ul id="task-list"></ul>
-        <script src="script.js"></script>
-    </div>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="blog-posts">
+            <article>
+                <h2>Blog Post Title</h2>
+                <p>Published on <span class="date">May 24, 2024</span></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <a href="#">Read More</a>
+            </article>
+            <!-- Add more articles here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
