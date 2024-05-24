@@ -26,7 +26,11 @@ main {
     padding: 20px;
 }
 
-#blog-posts article {
+section {
+    margin-bottom: 40px;
+}
+
+#blog article {
     background: #fff;
     margin-bottom: 20px;
     padding: 20px;
@@ -34,22 +38,22 @@ main {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-#blog-posts article h2 {
+#blog article h3 {
     margin-top: 0;
 }
 
-#blog-posts article .date {
+#blog article .date {
     color: #888;
     font-size: 0.9em;
 }
 
-#blog-posts article a {
+#blog article a {
     color: #333;
     text-decoration: none;
     font-weight: bold;
 }
 
-#blog-posts article a:hover {
+#blog article a:hover {
     text-decoration: underline;
 }
 
